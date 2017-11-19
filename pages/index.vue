@@ -1,5 +1,5 @@
 <template lang="pug">
-  section.container
+  section.container 
     .box
       h1.title {{hour}}:{{min}}
       button.btn(v-on:click="APlus") start
